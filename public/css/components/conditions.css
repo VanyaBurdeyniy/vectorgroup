@@ -1,0 +1,33 @@
+.conditions-container {
+    min-height: 400px;
+    background: transparent;
+}
+
+.conditions-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--white-text);
+}
+.conditions-block .conditions-sneakers img {
+    width: 100%
+}
+.conditions-block .conditions-title {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.conditions-block .conditions-title span {
+    font-size: 40px;
+}
+
+.conditions-block-2 {
+    color: var(--dark-color);
+}
+.conditions-block-2 .conditions-sneakers {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.conditions-block-2 .conditions-sneakers img {
+    width: 80%;
+}

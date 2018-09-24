@@ -1,0 +1,75 @@
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.homepage-hero-module .video-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    text-align: center;
+    color: var(--white-text);
+}
+
+.homepage-hero-module .video-title .display-4 {
+    font-size: 3rem;
+}
+
+.homepage-hero-module .video-title .btn-more {
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: var(--grey);
+    border: 2px solid var(--grey);
+}
+.homepage-hero-module .video-title .btn-more:hover {
+    color: var(--white-text);
+    border-color: var(--white-text);
+}

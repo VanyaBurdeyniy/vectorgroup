@@ -1,0 +1,25 @@
+.services-container {
+    background-color: var(--light-grey);
+    margin-top: 80px;
+}
+
+.services-container .services-block {
+    padding: 10px 0 50px 0;
+}
+
+.services-block-title {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.services-block .owl-carousel.owl-shoes .item img {
+    height: 300px;
+}
+
+.services-block .owl-carousel.owl-transport .item img {
+    height: 270px;
+}
+
+.shoes-description span {
+    font-size: 3rem;
+}

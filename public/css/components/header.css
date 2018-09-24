@@ -1,0 +1,37 @@
+@import url("variables.css");
+
+.header {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background-color: transparent;
+}
+
+.header .navbar-nav {
+    margin: auto;
+}
+
+.header .navbar-brand {
+    color: var(--white-text);
+    border-bottom: 2px solid var(--white-text);
+    margin-left: 10px;
+}
+
+.header .navbar-nav a {
+    color: var(--white-text);
+    border: 2px solid transparent;
+}
+
+.header .navbar-nav a:hover {
+    border-color: var(--white-text);
+}
+
+.header .header-phone {
+    position: absolute;
+    right: 20px;
+}
+
+.header-item-center-margin {
+    margin-left: 25px;
+    margin-right: 25px;
+}
